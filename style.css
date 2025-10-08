@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 
 * {
   margin: 0;
@@ -618,4 +622,5 @@ margin-top: 50px;
   .amostratitulo {
     font-size: 45px;
   }
+
 }

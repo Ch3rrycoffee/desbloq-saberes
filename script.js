@@ -33,21 +33,3 @@ showSlide(0);
     menu.classList.toggle('active');
   });
 
-const form = document.getElementById("formLogin");
-const msg = document.getElementById("msgLogin");
-
-form.addEventListener("submit", function(e) {
-  e.preventDefault();
-
-  const email = document.getElementById("email").value;
-  const senha = document.getElementById("senha").value;
-
-  
-  if (email === "teste@exemplo.com" && senha === "123456") {
-    msg.style.color = "green";
-    msg.textContent = "Login realizado com sucesso!";
-  } else {
-    msg.style.color = "red";
-    msg.textContent = "E-mail ou senha incorretos.";
-  }
-});
